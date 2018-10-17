@@ -18,7 +18,7 @@ public class MainTest {
 	}
 	
 	public static void arrayTest() {
-		String[] otikamisenkalo = {"ena","dio","tria","tessera"};
+		String[] otikamisenkalo = {"ena","diomisi","tria","tessera"};
 		
 		for(String w:otikamisenkalo) {
 			if(w.startsWith("tr")) {
@@ -48,7 +48,7 @@ public class MainTest {
 	
 	
 	public static void listPlay() {
-		String[] words= {"en","thel","na","pao","sxolio","avrio"};
+		String[] words= {"en","thelo","na","pao","sxolio","avrio"};
 		List<String> mylist=new ArrayList<String>();
 		
 		for(String x:words) {
