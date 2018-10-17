@@ -48,7 +48,7 @@ public class MainTest {
 	
 	
 	public static void listPlay() {
-		String[] words= {"en","thelo","na","pao","sxolio","avrio"};
+		String[] words= {"en","thel","na","pao","sxolio","avrio"};
 		List<String> mylist=new ArrayList<String>();
 		
 		for(String x:words) {
@@ -61,8 +61,8 @@ public class MainTest {
 	public static void linkedPlay() {
 		List<String> list1=new LinkedList<String>();
 		List<String> list2=new LinkedList<String>();
-		String[] planets1= {"Saturn","Jupiter","Earth"};
-		String[] planets2= {"Venus","Neptune","Mars"};
+		String[] planets1= {"Saturn","Jupiter","Earh"};
+		String[] planets2= {"Venu","Neptune","Mars"};
 		
 		for(String p:planets1) {
 			list1.add(p);
