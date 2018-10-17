@@ -22,7 +22,7 @@ public class MainTest {
 		
 		for(String w:otikamisenkalo) {
 			if(w.startsWith("tr")) {
-				System.out.println(w + " apisteuto tsikkin");
+				System.out.println(w + "tirin tsikkin");
 			}
 		}
 	}
