@@ -18,7 +18,7 @@ public class MainTest {
 	}
 	
 	public static void arrayTest() {
-		String[] otikamisenkalo = {"ena","dio","tria","tessera"};
+		String[] otikamisenkalo = {"ena","MPEE","tria","tessera"};
 		
 		for(String w:otikamisenkalo) {
 			if(w.startsWith("tr")) {
